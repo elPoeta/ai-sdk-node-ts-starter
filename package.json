@@ -1,0 +1,36 @@
+{
+  "name": "ai-sdk-node-ts-starter",
+  "version": "1.0.0",
+  "description": "AI SDK starter template",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "ai",
+    "agents"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ai-sdk/cerebras": "^1.0.10",
+    "@ai-sdk/google": "^2.0.7",
+    "@ai-sdk/openai-compatible": "^1.0.10",
+    "@dotenvx/dotenvx": "^1.48.3",
+    "@hono/node-server": "^1.19.0",
+    "ai": "^5.0.17",
+    "hono": "^4.9.2",
+    "ollama-ai-provider-v2": "^1.1.2",
+    "zod": "^3.25.76",
+    "zod4": "npm:zod@^4.0.17"
+
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
