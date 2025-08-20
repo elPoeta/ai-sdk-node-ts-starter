@@ -18,5 +18,5 @@ pnpm add @ai-sdk/cerebras
 ```
 
 ```bash
-pnpm add ollama-ai-provider-v2
+pnpm add ai-sdk-ollama
 ```
