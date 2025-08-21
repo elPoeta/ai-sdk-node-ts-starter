@@ -19,7 +19,8 @@ const googleProvider = customProvider({
 
 const cerebrasProvider = customProvider({
 	languageModels: {
-		openai: cerebras('llama-3.3-70b'),
+		gptOss120: cerebras('gpt-oss-120b'),
+		llama33: cerebras('llama-3.3-70b')
 	},
 	fallbackProvider: cerebras,
 });
